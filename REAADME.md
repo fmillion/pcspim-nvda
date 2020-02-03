@@ -1,0 +1,3 @@
+This is an experimental NVDA add-on along with experimental test case code for PC-Spim V9 (native). It is used in the paper "Exploring User Interface Improvements for Software Developers who are Blind" by F. Million, M. Bening and G. Salivia.
+
+A copy of the PC-SPIM application version used in the experiment is available in pcspim.zip. The program is for 32-bit Windows operating systems. The experiment was performed using Windows 7 and NVDA 2014.1. 

@@ -1,0 +1,40 @@
+PC Spim NVDA Add-On Keyboard Reference
+--------------------------------------
+
+All commands are "NVDA+Shift+key". Example: "X" means press NVDA+Shift+X.
+
+Braille Modes
+
+F - Freeze Mode. Stops updating the display, keeping the current register values in place.
+L - Live mode. Starts periodically updating the Braille display with the current values of system registers.
+R - Reveal mode. Displays in each region of the display what register is being displayed there.
+
+Braille configuration
+
+C - Open Display Configuration. Allows you to set which registers will be displayed in which regions of the Braille display.
+
+Code Readability
+
+I - Recite (and provide in Braille) information about the current line of code. Note: you should be focused on the Code window when you use this command.
+X - Make All Code Readable. Produces and opens a text file displaying all of the code in the Code window, processed for easy readability.
+Z - Make All Code Readable (Verbose). Produces and opens a text file displaying all of the code in the Code window, processed for easy readability with verbose output. More details are given for each instruction.
+
+User Interface
+
+1 - Set focus to the Code window.
+2 - Set focus to the Registers window.
+3 - Set focus to the Memory window.
+4 - Set focus to the Status window.
+5 - Set focus to the Console.
+P - Copy the contents of the Console to the system clipboard.
+
+Braille Commands
+
+All of the above commands except for the Focus Window commands are entered on the Braille display by pressing Dot 7 + Space + the letter in question. For example, to get info on the current line of code, you press Dot 2 + Dot 4 + Dot 7 + Space.
+To move focus between windows, press the given dot plus dot 7 plus Space. For example, for the Code window, press Dot 1 + Dot 7 + space; for the Console press Dot 1 + Dot 5 + Space.
+
+The following additional commands are available in Braille:
+
+R-Chord (Dots 1-2-3-5) - Run the code. (Same as the F5 key)
+ST-Chord (Dots 3-4) - Step to the next statement of code. (Same as the F10 key)
+FOR+7 Chord (Dots 1-2-3-4-5-6-7) - Randomize the display in the register cells. (Useful for debugging only)
